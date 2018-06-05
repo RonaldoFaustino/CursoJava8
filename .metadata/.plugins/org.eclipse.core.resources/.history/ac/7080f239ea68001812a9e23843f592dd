@@ -1,0 +1,24 @@
+package unidade2;
+
+public class Exercicios2 {
+
+	public class Fatorial {
+			int numero;
+			public Fatorial (int n){
+				numero = n;		
+			}
+			public void calculaFatorial (){
+				int i = numero -1;
+				while (numero>0){
+					numero =numero * i;
+					i--;
+				}
+			}
+			public void imprimeFatorial (){
+				System.out.println ("O resultado da fatorial do numero e: "+ numero);
+			}
+		}
+	}
+
+
+
