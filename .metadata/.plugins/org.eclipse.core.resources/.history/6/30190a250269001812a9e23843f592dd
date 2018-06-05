@@ -33,16 +33,16 @@ public class VetorApp {
 		*/
 		/********************** Matrizes *********************************/
 		
-		//int matriz[][] = new int [3][3];
+		int matriz[][] = new int [3][3];
 		
-		//matriz [0][0] = 100;
+		matriz [0][0] = 100;
 		
-		//System.out.println(matriz+",");
+		System.out.println(matriz+",");
 		
 		 //boolean email = "java@teste.com.br".matches("\\w+@\\w+\\.\\w{2,3}\\.\\w{2,3}");
 	       // System.out.println(email);
 	        
-	        for(int i=3;i<20;i+=2){
+	        for(int i=3;i<20;i+=20){
 	        	System.out.print((i%3)+"");
 	        }
 	}
