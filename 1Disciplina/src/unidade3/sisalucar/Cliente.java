@@ -10,6 +10,21 @@ public class Cliente {
 		String cnh;
 		
 		
+		public Cliente(long idCliente, String cpf, String nome, String cnh) {
+			super();
+			this.idCliente = idCliente;
+			this.cpf = cpf;
+			this.nome = nome;
+			this.cnh = cnh;
+		}
+		
+		public Cliente(){
+			
+		}
+		
+		
+		
+		
 
 	}
 

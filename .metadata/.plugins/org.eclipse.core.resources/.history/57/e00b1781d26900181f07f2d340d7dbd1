@@ -19,7 +19,7 @@ public class SisalucarApp {
 		
 		totalCarros = totalCarros +1;
 		
-		//Carro carro2 = new Carro(); // 2 objeto carro
+		Carro carro2 = new Carro(); // 2 objeto carro
 		
 		Cliente cliente1 = new Cliente();
 		cliente1.idCliente = 1;
@@ -27,16 +27,13 @@ public class SisalucarApp {
 		cliente1.nome = "João Pedro";
 		cliente1.cnh = "Dsd111";
 		
-		//Cliente cliente2 = new Cliente();
-		SisalucarApp sisalucar = new SisalucarApp();
-		sisalucar.realizarLocacao(carro1.idCarro, cliente1.idCliente, carro1.valorDiaria);
-		sisalucar.gerarRelatorioLocacao(carro1,LocalDate.now(),LocalDate.now().plusDays(5));
+		Cliente cliente2 = new Cliente();
 		
 				
 
 	}
 	
-	public void realizarLocacao(long idCarro, long idCliente, float valorDiaria)	
+	public void RealizarLocacao(long idCarro, long idCliente)
 	{
 		Locacao locacao = new Locacao();
 		locacao.idCarro = idCarro;
@@ -47,7 +44,7 @@ public class SisalucarApp {
 		locacao.valorLocado = 2 * 99.90f;
 	}
 	
-	public static void gerarRelatorioLocacao(Carro carro1,LocalDate ...datas){ //exemplo de varargs
+	public void gerarRelatorioLocacao(LocalDate ...datas){ //exemplo de varargs
 		
 		float totalFaturado = 2 * 99.90f;
 		

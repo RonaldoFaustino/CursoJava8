@@ -23,13 +23,8 @@ public class Carro {
 			this.modelo = modelo;
 		}
 		
-		public Carro(){
-			
-		}
-		
 		public static void main(String[] args) {
 			Carro carro1 = new Carro(1,"ABC-1234","Volkswagem",2013,"azul",99.90f,"gol");
-			Carro carro2 = new Carro();
 		}
 		
 
