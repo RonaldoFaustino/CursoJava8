@@ -1,0 +1,13 @@
+package unidade3;
+
+public class UnidadeDeExercicio {
+
+	public static void main(String[] args) {
+		String nome = "Curso de Java";
+		String avaliacao = " é otimo";
+		
+		System.out.println(nome +""+ avaliacao);
+
+	}
+
+}
