@@ -1,0 +1,7 @@
+package unidade3.sisalucar;
+
+import Conta;
+
+public class ContaCorrente extends Conta {
+
+}

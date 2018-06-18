@@ -1,0 +1,9 @@
+package unidade3.sisalucar;
+
+public class Moto extends Veiculo {
+
+	public int getPassageiros() //Anulação
+	{
+		return 1;
+	}
+}
