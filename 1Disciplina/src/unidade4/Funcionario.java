@@ -23,5 +23,12 @@ public abstract class Funcionario {
 	  ((Diretor)objeto).departamento = "RH"; //Exemplo de Casting
 	  
 	  verificarTipoFuncionario(objeto);
+	  
+	  Professor
   }
+
+public void pagaIR() {
+	// TODO Auto-generated method stub
+	
+}
 }
