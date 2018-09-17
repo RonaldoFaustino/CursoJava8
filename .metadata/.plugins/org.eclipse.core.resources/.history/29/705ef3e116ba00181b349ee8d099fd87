@@ -1,0 +1,10 @@
+package unidade1;
+
+public class TexteExcecao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

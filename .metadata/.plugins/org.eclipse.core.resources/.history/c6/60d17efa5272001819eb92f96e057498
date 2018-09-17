@@ -1,9 +1,0 @@
-package unidade3;
-
-public class ContaCorrente extends Conta {
-
-	public void atualiza(double taxa)
-	{
-		super.saldo = this.saldo + this.saldo*taxa;
-	}
-}
